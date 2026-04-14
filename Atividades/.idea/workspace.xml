@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="402bffc5-9a6c-4765-bd58-bf7c82e86f7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade_3/Atividade_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade_3/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade_3/src/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade_3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade_3/src/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade_2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade_2/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +40,19 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/analu/OneDrive/Documentos/REPOSITÓRIOS/REPOSITÓRIO - POO - JAVA/Atividades/Atividade_2/Atividade_3/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\analu\OneDrive\Documentos\REPOSITÓRIOS\REPOSITÓRIO - POO - JAVA\Atividades" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="402bffc5-9a6c-4765-bd58-bf7c82e86f7d" name="Changes" comment="" />
@@ -65,7 +64,10 @@
       <workItem from="1775240866703" duration="356000" />
       <workItem from="1775247094014" duration="8285000" />
       <workItem from="1775315487207" duration="8000" />
-      <workItem from="1776119972677" duration="5223000" />
+      <workItem from="1776119972677" duration="5819000" />
+      <workItem from="1776175318194" duration="121000" />
+      <workItem from="1776175445476" duration="263000" />
+      <workItem from="1776192106138" duration="29000" />
     </task>
     <servers />
   </component>
