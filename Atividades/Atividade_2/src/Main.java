@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Seja bem-vindo!");
         System.out.println("Você ganhou um bônus de R$50");
 
-        ContaBancaria saldos = new ContaBancaria(1,"Ana",5000.0); 
+        ContaBancaria saldos = new ContaBancaria(1,"Ana",5000.0);
 
         do{
             System.out.println("-----MENU-----");
