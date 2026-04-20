@@ -18,7 +18,14 @@ public final class  CarroPasseio extends Veiculo{
 
     @Override
     public void calcularIPVA() {
-        Double ipva = precoFipe*0.04;
+        double isento = 2026 - anoFabricacao;
+        Double ipva;
+
+        if (isento<20){
+            ipva = precoFipe*0.004;
+        }else {
+            ipva = 0.0;
+        }
 
         System.out.println("IPVA: "+ipva);
         System.out.println("------------------------");

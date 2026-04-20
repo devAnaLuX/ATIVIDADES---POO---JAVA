@@ -5,6 +5,10 @@ public final class Caminhao extends Veiculo {
     public Caminhao(Double capacidadeCargaToneladas, String placa, String marca, Double valorLocacaoDiaria, Integer anoFabricacao, Double precoFipe) {
         super(placa, marca, valorLocacaoDiaria, anoFabricacao, precoFipe);
         this.capacidadeCargaToneladas = capacidadeCargaToneladas;
+
+        if (capacidadeCargaToneladas == null || capacidadeCargaToneladas<0){
+            throw new VeiculoException("Capacidade inválida.");
+        }
     }
 
     @Override
@@ -26,8 +30,14 @@ public final class Caminhao extends Veiculo {
 
     @Override
     public void calcularIPVA() {
+        double isento = 2026 - anoFabricacao;
+        Double ipva;
 
-        Double ipva = precoFipe*0.015;
+        if (isento<20){
+            ipva = precoFipe*0.015;
+        }else {
+            ipva = 0.0;
+        }
 
         System.out.println("IPVA: "+ipva);
         System.out.println("------------------------");
